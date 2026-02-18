@@ -2,7 +2,7 @@ import pytest
 from datetime import datetime
 import json
 import os
-from config.config import Config
+from utils_config.config import Config
 
 @pytest.hookimpl(tryfirst=True)
 def pytest_configure(config):

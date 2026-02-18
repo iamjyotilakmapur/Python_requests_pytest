@@ -11,3 +11,5 @@ class Config:
     }
 
     BASE_URL = BASE_URLS.get(ENV)
+
+    
