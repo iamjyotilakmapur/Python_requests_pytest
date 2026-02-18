@@ -30,6 +30,7 @@ jobs:
 
       - name: Run tests
         run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
           pytest -s --html=report.html --self-contained-html
 
       - name: Upload report
